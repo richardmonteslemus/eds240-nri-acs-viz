@@ -101,7 +101,7 @@ heatmap_order %>%
   coord_cartesian(clip = "off") + 
   labs(title = "US County Risk Rating and Index by State",
        subtitle = "California has the highest risk index percentile median of all US states and visually appears to\nhave more counties in high risk rating categories",
-       caption = "**Figure 1:** The following heatmap shows the percentage of counties per state in each<br> FEMA risk rating category by color. States are ordered from largest to smallest based<br> on their FEMA risk index percentile median.",
+       caption = "**Figure 1:** The following heatmap shows the percentage of counties per state in each<br> FEMA risk rating category by color. States are ordered from largest to smallest based<br> on their FEMA risk index percentile median. Data: FEMA National Risk Index (2025 Release)",
        x = "Risk Rating", 
        y = "State", 
        fill = "% of Counties") +
