@@ -91,13 +91,7 @@ heatmap_order %>%
   ggplot(aes(x = national_risk_index_rating_composite, 
              y = state_name_abbreviation, fill = prop_risk)) +
   geom_tile() + 
-  scale_fill_viridis_c() +
-  annotate("text", x = 3, y = "CA", 
-           label = "← California", 
-           hjust = -4, 
-           fontface = "bold", 
-           size = 4,
-           color = "#9A1311") +
+  scale_fill_viridis_c(direction = -1) +
   coord_cartesian(clip = "off") + 
   labs(title = "US County Risk Rating and Index by State",
        subtitle = "California has the highest risk index percentile median of all US states and visually appears to\nhave more counties in high risk rating categories",
