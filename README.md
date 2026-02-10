@@ -11,18 +11,18 @@ The following analysis leverages the Federal Emergency Management Agency's (FEMA
 ```         
 ├── data
 │   └── National_Risk_Index_Counties.csv
-├── eds240-nri-acs-viz.qmd
+├── eds240-nri-viz.qmd
 ├── eds240-nri-acs-viz.Rproj
 ├── outputs
-│   └── eds240-nri-acs-viz.pdf
+│   └── eds240-nri-viz.pdf
 └── README.md
 ```
 
 ## File Description
 
--   `eds240-nri-acs-viz.qmd` - Quarto document containing code interpretation and analysis
+-   `eds240-nri-viz.qmd` - Quarto document containing code interpretation and analysis
 -   `outputs/` - Folder for rendered pdf
-    -   `eds240-nri-acs-viz.pdf` - Final analysis pdf
+    -   `eds240-nri-viz.pdf` - Final analysis pdf
 -   `data/` - Folder containing FEMA risk data
 -   `README.md` - This file
 
